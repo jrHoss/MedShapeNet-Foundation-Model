@@ -1,13 +1,19 @@
 # MedShapeNet Foundation Model
 
-A MedShapeNet Foundation Model: Learning-Based Multi-Modal Medical Point Cloud Completion
+MedShapeNet Foundation Model is a deep learning framework designed for 3D point cloud completion in medical imaging. It leverages a transformer-based architecture and integrates BERT text encoding to reconstruct anatomical structures from incomplete data, trained on the extensive MedShapeNet dataset.
 
-## Model Architecture
-Below is a diagram of the model's architecture:
+## Dataset
 
-![Model Architecture](./images/model_architecture.png)
+- **MedShapeNet is a large-scale dataset specifically designed for 3D medical shape analysis. It contains over 100,000 3D models of anatomical structures across 240 classes, representing various organs, bones, and other body parts.
+- **Our model was trained on 200,000 3D shapes.
 
-## Sample Point Cloud
-Here is an example of a generated point cloud from the MedShapeNet dataset:
+![image](https://github.com/user-attachments/assets/eca9600c-d668-4c76-9999-36642c05a595)
 
-![Point Cloud Sample](./images/point_cloud_sample.png)
+
+## Key Features
+- **Transformer-Based Autoencoder** for efficient feature extraction and 3D point cloud completion.
+- **Multi-Modal Integration** of text data using BERT to enhance point cloud reconstruction.
+- **Density-Aware Chamfer Distance Loss** tailored for handling varying point densities.
+
+## Online Demo
+Explore the capabilities of the MedShapeNet Foundation Model with our [online demo](http://gpuserver.di.uminho.pt:36124/).
