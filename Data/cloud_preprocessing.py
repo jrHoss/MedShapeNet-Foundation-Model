@@ -4,6 +4,28 @@ import trimesh
 import fpsample
 from transformers import BertTokenizer
 
+def normalize_point_cloud(point_cloud):
+    # Compute the mean of the point cloud
+    mean = np.mean(point_cloud, axis=0)
+
+    # Subtract the mean to move the point cloud to the origin
+    point_cloud -= mean
+
+    # Compute the maximum distance from the origin
+    max_distance = np.max(np.sqrt(np.sum(point_cloud**2, axis=1)))
+
+    # Scale the distances to the range -1.0 and 1.0
+    point_cloud /= max_distance
+
+    return point_cloud
+
+def remove_knn_points_by_index(points, point_index, num_remove):
+    center_point = points[point_index]
+    distances = np.linalg.norm(points - center_point, axis=1)
+    knn_indices = np.argsort(distances)[:num_remove]
+    remaining_points = np.delete(points, knn_indices, axis=0)
+    return remaining_points
+
 def preprocess_data(root_folder):
     """
     Preprocesses point cloud data and text labels for training by generating input sets, eye seeds,
