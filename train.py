@@ -2,10 +2,10 @@
 import os
 import tensorflow as tf
 from tensorflow.keras.callbacks import ReduceLROnPlateau, ModelCheckpoint
-from utils.mesh_to_point_cloud import process_and_save_point_clouds
-from utils.data_preprocessing import preprocess_data
-from models.pct_model import PCT_AE_Multimodal  # Adjust the import to where your model class is located
-from utils.loss_functions import calc_dcd  # Ensure you have your custom loss function in the utils directory
+from Data.mesh_to_point_cloud import process_and_save_point_clouds
+from Data.data_preprocessing import preprocess_data
+from models.MSN_foundation_model import PCT_AE_Multimodal  # Adjust the import to where your model class is located
+from utils.loss import calc_dcd  # Ensure you have your custom loss function in the utils directory
 from transformers import BertTokenizer
 
 # URL pointing to the MedShapeNet dataset file containing links to 3D mesh files
