@@ -1,0 +1,8 @@
+numpy==1.26.4
+tensorflow==2.15.0
+tqdm==4.66.4
+trimesh==4.4.1
+matplotlib==3.9.0
+fpsample==0.3.2
+transformers==4.41.2
+tensorflow_graphics==2021.12.3
