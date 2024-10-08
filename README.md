@@ -6,7 +6,7 @@ MedShapeNet Foundation Model is a deep learning framework designed for 3D point 
 
 - **MedShapeNet is a large-scale dataset specifically designed for 3D medical shape analysis. It contains over 100,000 3D models of anatomical structures across 240 classes, representing various organs, bones, and other body parts.
 - **Our model was trained on 200,000 3D shapes.
-
+- **The MedShapeNet is available [here](https://github.com/GLARKI/MedShapeNet2.0)
 ![image](https://github.com/user-attachments/assets/eca9600c-d668-4c76-9999-36642c05a595)
 
 
