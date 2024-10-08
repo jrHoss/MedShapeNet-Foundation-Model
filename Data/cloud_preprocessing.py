@@ -63,4 +63,4 @@ def preprocess_data(root_folder):
     input_ids = encoded_inputs['input_ids']
     attention_masks = encoded_inputs['attention_mask']
 
-    return np.array(input_set), np.array(eye_seeds), input_ids, attention_masks, np.array(GT_set)
+    return np.array(input_set, dtype= np.float32), np.array(eye_seeds, dtype= np.float32), np.array(input_ids, dtype= np.int32), np.array(attention_masks, dtype= np.int32), np.array(GT_set, dtype= np.float32)
