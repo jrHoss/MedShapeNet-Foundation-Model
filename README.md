@@ -15,8 +15,10 @@ MedShapeNet Foundation Model is a deep learning framework designed for 3D point 
 - Multi-Modal Integration** of text data using BERT to enhance point cloud reconstruction.
 - Density-Aware Chamfer Distance Loss** tailored for handling varying point densities.
 
-%## Online Demo
-%Explore the capabilities of the MedShapeNet Foundation Model with our [online demo](http://gpuserver.di.uminho.pt:36124/).
-
 ## Model weights
 the model weights are available [here](https://uni-duisburg-essen.sciebo.de/s/j459KveLeZ98qBc/download).
+
+<!--## Online Demo
+<!--Explore the capabilities of the MedShapeNet Foundation Model with our [online demo](http://gpuserver.di.uminho.pt:36124/).
+
+
