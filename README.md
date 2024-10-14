@@ -18,6 +18,8 @@ MedShapeNet Foundation Model is a deep learning framework designed for 3D point 
 ## Model weights
 the model weights are available [here](https://uni-duisburg-essen.sciebo.de/s/j459KveLeZ98qBc/download).
 
+## Paper
+- The paper can be accessed [here]
 <!--## Online Demo
 <!--Explore the capabilities of the MedShapeNet Foundation Model with our [online demo](http://gpuserver.di.uminho.pt:36124/).
 
