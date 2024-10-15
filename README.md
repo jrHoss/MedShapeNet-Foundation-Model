@@ -8,11 +8,7 @@ MedShapeNet Foundation Model is a deep learning framework designed for 3D point 
 - Our model was trained on 200,000 3D shapes.
 - The MedShapeNet is available [here](https://github.com/GLARKI/MedShapeNet2.0).
 
-![MSN_meshes_examples](https://github.com/user-attachments/assets/2016fc33-b433-4c24-8c0b-fdf48d3a78c2)
-
-
-
-
+![MSN_meshes_examples2](https://github.com/user-attachments/assets/6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720)
 
 ## Key Features
 - Transformer-Based Autoencoder** for efficient feature extraction and 3D point cloud completion.
