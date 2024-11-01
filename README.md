@@ -12,7 +12,7 @@ The model is trained on the **MedShapeNet dataset**, a comprehensive collection 
 To create a robust training set for our model:
 - We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet.
 - To simulate real-world scenarios where data might be incomplete, we introduced **defects by removing points** from each point cloud. This created an "incomplete" input that the model aims to reconstruct.
-- Each point cloud was processed twice in this way, generating a total of **200,000 point clouds** for training.
+- Each point cloud was processed twice in this way, generating a total of **200,000 point clouds** for 90% was designated for training and 10% for validation.
 
 ## Multi-Modal Approach
 
