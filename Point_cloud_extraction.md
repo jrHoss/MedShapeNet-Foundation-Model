@@ -33,6 +33,6 @@ num_points = 6144                                  # Number of points per cloud
 process_and_save_point_clouds(links_url, point_cloud_dir, num_points)
 ```
 
-You can check out the full code for this step [here](MedShapeNet-Foundation-Model/Data/meshes_to_clouds.py)
+You can check out the full code for this step [here](Data/meshes_to_clouds.py)
 
 The URL for the dataset as a .txt can be accessed [here](https://medshapenet.ikim.nrw/uploads/MedShapeNetDataset.txt)
