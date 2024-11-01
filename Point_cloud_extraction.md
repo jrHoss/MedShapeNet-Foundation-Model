@@ -1,4 +1,6 @@
 
+You can check out the full code [here](MedShapeNet-Foundation-Model/Data
+/meshes_to_clouds.py)
 ## What This Code Does
 
 This script is designed to extract and process point clouds from 3D mesh files in the MedShapeNet dataset. Here's a breakdown:
