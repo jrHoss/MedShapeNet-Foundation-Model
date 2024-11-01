@@ -1,5 +1,5 @@
 
-You can check out the full code for this step [here](You can check out the full code [here](MedShapeNet-Foundation-Model/Data/meshes_to_clouds.py)
+You can check out the full code for this step [here](MedShapeNet-Foundation-Model/Data/meshes_to_clouds.py)
 
 ## What This Code Does
 
