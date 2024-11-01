@@ -1,3 +1,33 @@
+### MedShapeNet Foundation Model
+
+The **MedShapeNet foundation model** is the first multi-modal foundation model for medical **point cloud completion**. It is designed to handle incomplete 3D point cloud data and infer the full shape of various medical structures. This pioneering approach combines both 3D geometric data and textual data to improve accuracy in reconstructing medical shapes, aiming to support more precise analysis and medical applications.
+
+#### Dataset: [MedShapeNet](https://github.com/GLARKI/MedShapeNet2.0).
+
+The model is trained on the **MedShapeNet dataset**, a comprehensive collection of over **100,000 3D medical shapes**. This dataset encompasses a wide range of medical structures, including **organs, vessels, bones, instruments**, and more, spanning across **240 distinct classes**.
+
+To create a robust training set for our model:
+- We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet.
+- To simulate real-world scenarios where data might be incomplete, we introduced **defects by removing points** from each point cloud. This created an "incomplete" input that the model aims to reconstruct.
+- Each point cloud was processed twice in this way, generating a total of **200,000 point clouds** for training.
+
+#### Multi-Modal Approach
+
+To enhance the model's interpretative ability, we provided **class names as textual input**. This allows the model to differentiate between classes, such as distinguishing a **healthy liver** from a **tumorous liver**, adding a layer of semantic understanding to its point cloud completion.
+
+The MedShapeNet foundation model demonstrates the potential of multi-modal learning in medical applications, bridging 3D shape data with textual descriptors to improve the quality and accuracy of shape completion in medical imaging.
+
+
+
+
+
+
+
+
+
+
+
+
 # MedShapeNet Foundation Model
 
 MedShapeNet Foundation Model is a deep learning framework designed for 3D point cloud completion in medical imaging. It leverages a transformer-based architecture and integrates BERT text encoding to reconstruct anatomical structures from incomplete data, trained on the extensive MedShapeNet dataset.
