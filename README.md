@@ -15,7 +15,7 @@ The model is trained on the **MedShapeNet dataset**, a comprehensive collection 
 ![MSN_meshes_examples2](https://github.com/user-attachments/assets/6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720)
 
 To create a robust training set for our model:
-- We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet, this step is explained in detail [here] (https://github.com/jrHoss/MedShapeNet-Foundation-Model/blob/main/Point%20cloud%20extraction.md)
+- We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet, this step is explained in detail [here] (Point cloud extraction.md)
 - To simulate real-world scenarios where data might be incomplete, we introduced **defects by removing points** from each point cloud. This created an "incomplete" input that the model aims to reconstruct.
 - Each point cloud was processed twice in this way, generating a total of **200,000 point clouds** for our dataset. 90% was designated for training and 10% for validation.
 - ![image](https://github.com/user-attachments/assets/2f5ec46d-537c-4b7a-9903-63393598084a)
