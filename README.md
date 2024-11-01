@@ -7,6 +7,8 @@ The **MedShapeNet foundation model** is the first multi-modal foundation model f
 
 The model is trained on the **MedShapeNet dataset**, a comprehensive collection of over **100,000 3D medical shapes**. This dataset encompasses a wide range of medical structures, including **organs, vessels, bones, instruments**, and more, spanning across **240 distinct classes**.
 
+![MSN_meshes_examples2](https://github.com/user-attachments/assets/6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720)
+
 To create a robust training set for our model:
 - We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet.
 - To simulate real-world scenarios where data might be incomplete, we introduced **defects by removing points** from each point cloud. This created an "incomplete" input that the model aims to reconstruct.
@@ -39,7 +41,7 @@ MedShapeNet Foundation Model is a deep learning framework designed for 3D point 
 - Our model was trained on 200,000 3D shapes.
 - The MedShapeNet is available [here](https://github.com/GLARKI/MedShapeNet2.0).
 
-![MSN_meshes_examples2](https://github.com/user-attachments/assets/6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720)
+
 
 ## Key Features
 - Transformer-Based Autoencoder** for efficient feature extraction and 3D point cloud completion.
