@@ -21,18 +21,6 @@ the model weights are available [here](https://uni-duisburg-essen.sciebo.de/s/j4
 ## Paper
 The paper can be accessed [here](MedShapeNet_Foundation_Model.pdf), and on [ResearchGate](https://www.researchgate.net/publication/384968432_A_MedShapeNet_Foundation_Model_-_Learning-Based_Multimodal_Medical_Point_Cloud_Completion)
 
-# Example Analysis
-
-Below is an example code snippet from our analysis notebook:
-
-```python
-# This is an input cell
-import numpy as np
-
-# Generate random data
-data = np.random.randn(100)
-print("Sample mean:", np.mean(data))
-
 
 <!--## Online Demo
 <!--Explore the capabilities of the MedShapeNet Foundation Model with our [online demo](http://gpuserver.di.uminho.pt:36124/).
