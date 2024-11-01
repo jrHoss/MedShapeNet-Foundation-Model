@@ -1,5 +1,6 @@
 
 You can check out the full code for this step [here](MedShapeNet-Foundation-Model/Data/meshes_to_clouds.py)
+The URL for the Dataset as a .txt can be accessed [here](https://medshapenet.ikim.nrw/uploads/MedShapeNetDataset.txt)
 
 ## What This Code Does
 
