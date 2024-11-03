@@ -36,7 +36,7 @@ The MedShapeNet foundation model demonstrates the potential of multi-modal learn
 
 ## Training Demo
 
-- This [Notebook](MSN_model_training_Demo.ipynb) on how to build and train the model.
+- This a [Notebook](MSN_model_training_Demo.ipynb) on how to build and train the model.
 
 
 ## Model weights
