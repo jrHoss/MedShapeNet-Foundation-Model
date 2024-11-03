@@ -10,6 +10,9 @@ This script is designed to inject defects into complete point clouds extracted f
 3. **Inject Defects**:
    - Uses **farthest point sampling (FPS)** to select key points in the point cloud. This ensures a diverse and evenly distributed selection of points to create defects.
    - Removes neighboring points around these key points using **K-Nearest Neighbors (KNN)**. The `remove_knn_points_by_index` function identifies and removes a specified number of nearest points, simulating a defect in the point cloud.
+
+![image](https://github.com/user-attachments/assets/e34c795c-2b48-4c7c-824d-90e6161e454f)
+
 4. **Prepare Text Labels**: Extracts class names from file names to be used as labels.
 5. **Tokenize Text Labels**:
    - Uses a pre-trained BERT tokenizer to convert class names into tokenized input IDs and attention masks.
@@ -26,4 +29,3 @@ root_folder = "path/to/your/ply/files"  # Directory containing .ply files with c
 input_set, eye_seeds, input_ids, attention_masks, GT_set = preprocess_data(root_folder)
 ```
 
-![image](https://github.com/user-attachments/assets/e34c795c-2b48-4c7c-824d-90e6161e454f)
