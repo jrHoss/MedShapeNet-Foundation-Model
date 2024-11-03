@@ -24,3 +24,6 @@ This script is designed to inject defects into complete point clouds extracted f
 ```python
 root_folder = "path/to/your/ply/files"  # Directory containing .ply files with complete point clouds
 input_set, eye_seeds, input_ids, attention_masks, GT_set = preprocess_data(root_folder)
+```
+
+![image](https://github.com/user-attachments/assets/e34c795c-2b48-4c7c-824d-90e6161e454f)
