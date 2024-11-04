@@ -34,6 +34,9 @@ The MedShapeNet foundation model demonstrates the potential of multi-modal learn
 ![image](https://github.com/user-attachments/assets/7a1ce76a-8065-45c7-88d8-175f9cfc9e4a)
 
 
+## Demo Point cloud dataset
+- A small demo [dataset](demo_point_clouds.zip) of 220 point clouds have been preprocessed and can be used directly with the model for inference.
+
 ## Training Demo
 
 - This a [Notebook](MSN_model_training_Demo.ipynb) on how to build and train the model.
