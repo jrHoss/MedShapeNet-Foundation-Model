@@ -40,7 +40,7 @@ The MedShapeNet foundation model demonstrates the potential of multi-modal learn
 
 ## Inference Demo
 
-- This a [Notebook](MSN_model_training_Demo.ipynb) on how to use the model to run inference and visualize the results.
+- This a [Notebook](MSN_model_inference_demo.ipynb) on how to use the model to run inference and visualize the results.
 
 
 ## Model weights
