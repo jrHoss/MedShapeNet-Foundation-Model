@@ -1,6 +1,7 @@
 # MedShapeNet Foundation Model
 
-![MSN FM Logo](https://github.com/user-attachments/assets/abf6dc67-0353-49ba-b8f3-d796c628106c)
+<img src="https://github.com/user-attachments/assets/abf6dc67-0353-49ba-b8f3-d796c628106c" alt="MSN FM Logo" width="400" height="200"/>
+
 
 
 
