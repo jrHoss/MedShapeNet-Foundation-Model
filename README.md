@@ -26,14 +26,8 @@ The **MedShapeNet foundation model** is the first multi-modal foundation model f
 The model is trained on the **MedShapeNet dataset**, a comprehensive collection of over **100,000 3D medical shapes**. This dataset encompasses a wide range of medical structures, including **organs, vessels, bones, instruments**, and more, spanning across **240 distinct classes**.
 
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720" alt="MSN_meshes_examples2">
-</div>
+![Presentation1-removebg-preview](https://github.com/user-attachments/assets/63899906-040b-4c6a-bbca-3c34f8c720d3)
 
-
-
-
-![376640630-6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720-removebg](https://github.com/user-attachments/assets/4b918719-4730-404e-991d-b6342888ae9a)
 
 
 To create a robust training set for our model:
