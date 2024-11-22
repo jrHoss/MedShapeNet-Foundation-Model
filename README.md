@@ -1,4 +1,4 @@
-# MedShapeNet Foundation Model
+![Dorchester3D com_clavicle_input](https://github.com/user-attachments/assets/9a90661b-b713-4d71-b90b-ddbf6579e007)# MedShapeNet Foundation Model
 
 <div align="center">
  <img src="https://github.com/user-attachments/assets/abf6dc67-0353-49ba-b8f3-d796c628106c" alt="MSN FM Logo" width="200" height="400"/>
@@ -6,7 +6,13 @@
 
 
 
-The **MedShapeNet foundation model** is the first multi-modal foundation model for medical **point cloud completion** and serves as a foundation for future research in this area. It is designed to handle incomplete 3D point cloud data and reconstruct the full shape of various medical structures. By combining both 3D point cloud data and textual data, this model enhances accuracy in shape reconstruction, supporting more precise analysis and potential applications in extended reality (XR) for medicine and custom bone implant design.
+
+
+![Dorchester3D com_clavicle_input](https://github.com/user-attachments/assets/fb950392-f802-4558-8546-d5939c9ccd53)
+
+
+The **MedShapeNet foundation model** is the first multi-modal foundation model for medical **point cloud completion** and serves as a foundation for future research in this area. It is designed to handle incomplete 3D point cloud data and reconstruct the full shape of various medical structures. By combining both 3D point cloud data and textual data, this model enhances accura![Uploading Dorchester3D.com_clavicle_input.gif…]()
+cy in shape reconstruction, supporting more precise analysis and potential applications in extended reality (XR) for medicine and custom bone implant design.
 
 ## Key Features
 - Transformer-Based Autoencoder** for efficient feature extraction and 3D point cloud completion.
