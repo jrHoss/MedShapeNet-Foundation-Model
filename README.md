@@ -6,6 +6,13 @@
 
 
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3394fcd2-4756-43c9-9f78-3154afbb18eb" alt="Recording 2024-11-22 093020">
+</div>
+
+
+
+
 The **MedShapeNet foundation model** is the first multi-modal foundation model for medical **point cloud completion** and serves as a foundation for future research in this area. It is designed to handle incomplete 3D point cloud data and reconstruct the full shape of various medical structures. By combining both 3D point cloud data and textual data, this model enhances accuracy in shape reconstruction, supporting more precise analysis and potential applications in extended reality (XR) for medicine and custom bone implant design.
 
 ## Key Features
