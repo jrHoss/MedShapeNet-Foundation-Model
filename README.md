@@ -44,7 +44,11 @@ To enhance the model's interpretative ability, we provided **class names as text
 The MedShapeNet foundation model demonstrates the potential of multi-modal learning in medical applications, bridging 3D shape data with textual descriptors to improve the quality and accuracy of shape completion in medical imaging.
 
 
-![image](https://github.com/user-attachments/assets/7a1ce76a-8065-45c7-88d8-175f9cfc9e4a)
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7a1ce76a-8065-45c7-88d8-175f9cfc9e4a" alt="image">
+</div>
 
 
 ## Demo Point cloud dataset
