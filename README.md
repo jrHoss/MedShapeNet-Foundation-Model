@@ -31,6 +31,11 @@ The model is trained on the **MedShapeNet dataset**, a comprehensive collection 
 </div>
 
 
+
+
+![376640630-6a66b8e2-71cd-4bcf-afa3-eef3ffbdc720-removebg](https://github.com/user-attachments/assets/4b918719-4730-404e-991d-b6342888ae9a)
+
+
 To create a robust training set for our model:
 - We extracted **point clouds** from the vertices of each 3D mesh file in MedShapeNet.
 - Point extactiom is explained in detail [here](Point_cloud_extraction.md)
