@@ -35,7 +35,12 @@ The model is trained on the **MedShapeNet dataset**, a comprehensive collection 
 
 
 
-![Presentation1-removebg](https://github.com/user-attachments/assets/1e2be539-f23e-42d0-b73a-ac274f97a19c)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e2be539-f23e-42d0-b73a-ac274f97a19c" alt="Presentation1-removebg">
+</div>
+
+
+<!-- ![Presentation1-removebg](https://github.com/user-attachments/assets/1e2be539-f23e-42d0-b73a-ac274f97a19c) -->
 
 
 
