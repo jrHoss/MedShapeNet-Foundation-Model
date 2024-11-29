@@ -54,8 +54,13 @@ To create a robust training set for our model:
 - Defect injection and augmentation are explained [here](Defect_injection.md)
 
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ce823671-5255-4c50-9a3a-32caec1011b6" alt="Centered Image">
+</div>
 
-![image](https://github.com/user-attachments/assets/ce823671-5255-4c50-9a3a-32caec1011b6)
+
+
+<!-- ![image](https://github.com/user-attachments/assets/ce823671-5255-4c50-9a3a-32caec1011b6) -->
 
 
 
