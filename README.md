@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0bc5063e-5512-4f11-afc5-128b8eacd02f" alt="MSN_body" width="200" height="400"/>
+  <img src="https://github.com/user-attachments/assets/0bc5063e-5512-4f11-afc5-128b8eacd02f" alt="MSN_body" width="200" height="350"/>
 </div>
 
 
