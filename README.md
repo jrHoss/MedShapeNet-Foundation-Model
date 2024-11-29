@@ -48,7 +48,9 @@ To create a robust training set for our model:
 - Each point cloud was processed twice in this way, generating a total of **200,000 point clouds** for our dataset. 90% was designated for training and 10% for validation.
 - Defect injection and augmentation are explained [here](Defect_injection.md)
 
-![image](https://github.com/user-attachments/assets/e34c795c-2b48-4c7c-824d-90e6161e454f)
+
+
+<!-- ![image](https://github.com/user-attachments/assets/e34c795c-2b48-4c7c-824d-90e6161e454f) -->
 
 
 ## Multi-Modal Approach
