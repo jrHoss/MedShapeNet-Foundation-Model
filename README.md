@@ -49,7 +49,8 @@ To create a robust training set for our model:
 - Defect injection and augmentation are explained [here](Defect_injection.md)
 
 
-![Slide6](https://github.com/user-attachments/assets/49f6c6e4-ebd0-44f9-bd41-487e4a69d81e)
+
+![image](https://github.com/user-attachments/assets/ce823671-5255-4c50-9a3a-32caec1011b6)
 
 
 
