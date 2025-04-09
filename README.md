@@ -94,7 +94,7 @@ The MedShapeNet foundation model demonstrates the potential of multi-modal learn
 
 
 ## Model weights
-the model weights are available [here](https://uni-duisburg-essen.sciebo.de/s/j459KveLeZ98qBc/download).
+the model weights are available [here](https://drive.google.com/file/d/1VBAy9tQ5kProgmdNAS1vcnOIqRkee-9V/view?usp=sharing).
 
 ## Paper
 The paper can be accessed [here](MedShapeNet_Foundation_Model.pdf), and on [ResearchGate](https://www.researchgate.net/publication/384968432_A_MedShapeNet_Foundation_Model_-_Learning-Based_Multimodal_Medical_Point_Cloud_Completion)
